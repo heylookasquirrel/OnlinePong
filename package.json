@@ -1,0 +1,16 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "lzutf8": "^0.5.5",
+    "socket.io": "^2.1.1"
+  }
+}

@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Pong</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body>
+    <h1>Score</h1>
+    <div class="scores">
+      <div id="p1score">
+        Player 1:
+      </div>
+      <div id="p2score">
+        Player 2:
+      </div>
+
+    </div>
+
+    <canvas id="stage" width="400px" height="500px"></canvas>
+    <h3>Ball</h3>
+    <div id="ballx"></div>
+    <div id="bally"></div>
+    <h3>Player 1 Paddle</h3>
+    <div id="paddlex"></div>
+    <h3>Player 2 Paddle</h3>
+    <div id="opponentx"></div>
+
+    <h3>NetStats</h3>
+    <div id="ping"></div>
+  </body>
+  <script id="lzutf8" src="https://cdn.jsdelivr.net/npm/lzutf8/build/production/lzutf8.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+  <script src="main.js"></script>
+</html>

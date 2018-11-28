@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+h1{
+  text-align: center
+}
+.scores{
+  display:grid;
+  text-align:center;
+  grid-template-columns: 50% 50%;
+}
+
+#stage{
+  border: solid black 1px;
+  padding-left: 0;
+   padding-right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
